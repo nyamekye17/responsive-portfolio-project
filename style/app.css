@@ -93,9 +93,6 @@ font-weight: bold;
 .component{
     font-size: 14px;
 }
-.translate{
-    padding-bottom: 20px;
-}
 
 
 @media(max-width: 960px){
