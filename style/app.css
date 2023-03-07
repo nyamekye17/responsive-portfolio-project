@@ -27,7 +27,7 @@ p{
     background: var(--secondary-color);
     text-align: center;
     line-height: 1.5;
-    padding: 150px 20px;
+    padding: 160px 20px;
   
 }
 .hero h2{
@@ -64,6 +64,28 @@ h3{
 .project-details{
     padding: 120px 60px;
 }
+.about-developer h1{
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-developer h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: #272142;
+}
+
+.about-developer p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.about-developer{
+    padding: 160px 20px; 
+}
+.about-section{
+    margin: 30px;
+}
+
 @media(max-width: 960px){
 h1{
     font-size: 44px;
@@ -78,6 +100,10 @@ h1{
 .project-details{
     padding: 0;
     text-align: center;
+}
+.about-developer{
+    text-align: center;
+    padding: 0;
 }
 }
 
