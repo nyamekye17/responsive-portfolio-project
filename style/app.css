@@ -64,27 +64,36 @@ h3{
 .project-details{
     padding: 120px 60px;
 }
-.about-developer h1{
+.content-container h1{
     font-size: 64px;
     line-height: 80px;
 }
-.about-developer h2{
+.content-container h2{
     font-size: 18px;
     font-weight: bold;
     color: #272142;
 }
 
-.about-developer p{
+.content-container p{
     font-size: 16px;
     font-weight: normal;
 }
 
-.about-developer{
+.content-container{
     padding: 160px 20px; 
 }
-.about-section{
+.content{
     margin: 30px;
 }
+.content-container h3{
+font-size: 24px;
+font-weight: bold;
+
+}
+.component{
+    font-size: 14px;
+}
+
 
 @media(max-width: 960px){
 h1{
@@ -101,7 +110,7 @@ h1{
     padding: 0;
     text-align: center;
 }
-.about-developer{
+.content-container{
     text-align: center;
     padding: 0;
 }
