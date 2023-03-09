@@ -93,7 +93,34 @@ font-weight: bold;
 .component{
     font-size: 14px;
 }
+nav{
+    padding: 20px 0;
+}
+.logo{
+    max-height: 40px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+nav li.active a{
+color: var(--primary-color);
+}
 
+nav a:hover{
+color: var(--primary-color);
+}
 
 @media(max-width: 960px){
 h1{
@@ -113,6 +140,9 @@ h1{
 .content-container{
     text-align: center;
     padding: 0;
+}
+nav a{
+    font-size: 14px;
 }
 }
 
