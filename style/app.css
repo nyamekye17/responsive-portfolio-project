@@ -20,7 +20,7 @@ p{
     line-height: 2;
 }
 .project-details h2{
-    font-size: 60px;
+    font-size: 50px;
     font-family: var(--main-font-family);
 }
 .hero{
@@ -62,7 +62,7 @@ h3{
     padding: 10px 30px;
 }
 .project-details{
-    padding: 120px 60px;
+    padding: 60px 30px;
 }
 .content-container h1{
     font-size: 64px;
