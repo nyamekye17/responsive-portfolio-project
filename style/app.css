@@ -27,7 +27,7 @@ p{
     background: var(--secondary-color);
     text-align: center;
     line-height: 1.5;
-    padding: 160px 20px;
+    padding: 80px 20px;
   
 }
 .hero h2{
@@ -80,7 +80,7 @@ h3{
 }
 
 .content-container{
-    padding: 160px 20px; 
+    padding: 60px 20px; 
 }
 .content{
     margin: 30px;
@@ -162,9 +162,7 @@ h1{
     font-size: 44px;
     line-height: 1.5;
 }
-.hero{
-    padding: 80px 20px;
-}
+
 .project-details h2{
     font-size: 42px;
 }

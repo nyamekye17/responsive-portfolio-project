@@ -4,58 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Patricia is a front-end developer based in Portugal. On this webpage, she shares some of the projects she has undertaken and the means of getting into contact with her">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d7ad3d8916.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/app.css">
+    <link rel="stylesheet" href="/style/app.css">
   </head>
-    <title>SheCodes Portfolio</title>
+    <title>Front-end developer-Patricia Pereira</title>
 </head>
 <body>
     <div class="container">
     <nav class="d-flex justify-content-between"> 
-        <a href="/">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="">
-        <img src="images/logo-small.jpg"  class="logo d-block d-md-none" alt="">
+        <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="Patricia logo">
+        <img src="images/logo-small.jpg"  class="logo d-block d-md-none" alt="Patricia logo">
     </a>
         <ul>
             <li class="active">
-               <a href="/" >Home</a>
+               <a href="/" title="Homepage" >Home</a>
             </li>
             <li>
-               <a href="/about.html">About</a>
+               <a href="/about.html" title="About page">About</a>
             </li>
             <li>
-               <a href="/work.html">Work</a>
+               <a href="/work.html" title="Patricia's Work">Work</a>
             </li>
             <li>
-               <a href="/contact.html">Contact</a>
+               <a href="/contact.html" title="Contact Patricia">Contact</a>
             </li>
         </ul>
     </nav>
 </div>
     <div class="hero">
  <h2>👋🏽Hello, I am</h2>
- <h1>Nana Aba Acquah</h1>
- <h3 class="mb-5">🇬🇭 Front-end developer based in Accra, Ghana</h3>
- <a href="#" class="btn btn-branding">Contact me</a>
+ <h1>Patricia Pereira</h1>
+ <h3 class="mb-5">🇬🇭 Front-end developer based in Portugal</h3>
+ <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
 </div>
-<div class="container">
+<div class="container" id="projects">
     <p class="text-center m-5">
         Featured in this project are my best projects I have chosen to show
     </p>
     <div class="row mb-5">
         <div class="col d-none d-lg-block">
-            <img src="images/yogurt.png" class="img-fluid" alt="picture of yogurt">
+            <img src="/images/yogurt.png" class="img-fluid" alt="Picture of yogurt">
         </div>
         <div class="col">
             <div class="project-details">
     <h2 class="mb-4">Yogurt Project</h2>
     <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by</p>
-    <a href="#" class="btn btn-outline">View Project</a>
+    <a href="/work.html" class="btn btn-outline">View Project</a>
 </div>
 </div>
 </div>
@@ -64,22 +65,22 @@
         <div class="project-details">
 <h2 class="mb-4">Weather App</h2>
 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by</p>
-<a href="#" class="btn btn-outline">View Project</a>
+<a href="/work.html" class="btn btn-outline">View Project</a>
 </div>
 </div>
 <div class="col d-none d-lg-block">
-    <img src="images/weather.png" class="img-fluid" alt="picture of weather app interface">
+    <img src="/images/weather.png" class="img-fluid" alt="Picture of weather app interface">
 </div>
 </div>
 <div class="row mb-5">
     <div class="col d-none d-lg-block">
-        <img src="images/dictionary.png" class="img-fluid" alt="picture of dictionary app interface">
+        <img src="/images/dictionary.png" class="img-fluid" alt="Picture of dictionary app interface">
     </div>
     <div class="col">
         <div class="project-details">
 <h2 class="mb-4">Dictionary App</h2>
 <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by</p>
-<a href="#" class="btn btn-outline">View Project</a>
+<a href="/work.html" class="btn btn-outline">View Project</a>
 </div>
 </div>
 </div>
@@ -90,17 +91,21 @@
         <p class="text-muted">Let's work together</p>
     </div>
     <div>
-        <a href="" class="btn btn-branding mt-3">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Patricia">Contact me</a>
     </div>
     </div>
-    <div class="d-flex justify-content-center mb-4">
-    <a href="mailto:abby@gmail.com" class="email-link">abby@gmail.com</a>
+    <div class="d-flex justify-content-center mb-5">
+    <a href="mailto:patricia@gmail.com" class="email-link" title="Email Patricia">patricia@gmail.com</a>
 </div>
     <div class="social-links d-flex justify-content-center">
-        <a href="https://www.facebook.com/abby17" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://www.github.com/abby17" target="_blank"><i class="fa-brands fa-github"></i></a>
-        <a href="https://www.twitter.com/abby17" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="https://www.facebook.com/patricia17" target="_blank" title="Facebook profile"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.github.com/patricia17" target="_blank" title="Github profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.twitter.com/patricia17" target="_blank" title="Instagram profile"><i class="fa-brands fa-square-instagram"></i></a>
     </div> 
+    <p class="text-center mt-4">
+        This project was coded by SheCodes, and is 
+        <a href="https://github.com/nyamekye17/responsive-portfolio-project" target="_blank">open-sourced</a>
+    </p>
 </footer>
 </div>
 </body>
