@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #6C63FF;
-    --secondary-color:#f9f7fe;
+    --primary-color: #76d17c;
+    --secondary-color: aliceblue;
     --main-font-family: 'Playfair Display', serif;
     --regular-font-family: 'Poppins', sans-serif;
 }
@@ -98,6 +98,7 @@ nav{
 }
 .logo{
     max-height: 40px;
+    width: 80px;
 }
 nav ul{
     padding: 0;
@@ -156,11 +157,18 @@ font-weight: bold;
 .contact-box p{
     margin: 0;
 }
+.myself{
+    border-radius: 5px;
+    height: 100%;
+}
 
 @media(max-width: 960px){
 h1{
     font-size: 44px;
     line-height: 1.5;
+}
+.logo{
+    width: 40px;
 }
 
 .project-details h2{
