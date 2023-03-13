@@ -163,7 +163,7 @@ font-weight: bold;
 }
 .weather{
    max-width: 100%;
-    height: 500px;
+    height: 600px;
 }
 @media(max-width: 960px){
 h1{
