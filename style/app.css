@@ -167,6 +167,9 @@ font-weight: bold;
     height: 600px;
 }
 @media(max-width: 960px){
+    body{
+        overflow-x: hidden;
+    }
 h1{
     font-size: 44px;
     line-height: 1.5;
@@ -185,6 +188,7 @@ h1{
 .content-container{
     text-align: center;
     padding: 0;
+    overflow-x: hidden;
 }
 nav a{
     font-size: 14px;
